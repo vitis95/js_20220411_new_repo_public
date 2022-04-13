@@ -16,7 +16,7 @@ main { width: 400px; margin: 0 auto; margin-bottom: 40px;}
 
 .pre-header { width: 100%; height: 25px; background: #8D99AE; }
 
-.header-fixed { position: fixed; top: 0; left: 0;  width: 100%; height: auto; background: #fff; z-index: 9999; transition: All 0.3s ease; -webkit-transition: All 0.3s ease; -moz-transition: All 0.3s ease; -o-transition: All 0.3s ease;  box-shadow: 10px 10px 5px #dedede;}
+.header-fixed { position: fixed; top: 0; left: 0;  width: 100%; height: auto; background: #fff; z-index: 9999; transition: All 0.3s ease; -webkit-transition: All 0.3s ease; -moz-transition: All 0.3s ease; -o-transition: All 0.3s ease;  box-shadow: 10px 10px 5px #000;}
 .header-fixed h1 a { display: block; text-align: center; }
 .header-relative { height: 150px; }
 .header-fixed.resized { top: -75px; }
