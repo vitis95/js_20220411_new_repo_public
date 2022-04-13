@@ -8,7 +8,10 @@ Palette - https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 }
 body { margin: 0 auto;  background-color: #EDF2F4; font-family: sans-serif; }
 h1, h2, h3, h4 { color: #1e1e1e; }
+main { width: 400px; }
 .container h2 { margin-top: 60px; }
+
+
 
 
 .pre-header { width: 100%; height: 25px; background: #8D99AE; }
