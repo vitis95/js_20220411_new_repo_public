@@ -11,28 +11,37 @@ const box_colored = document.getElementById('box-colored');
 
 
 btn.addEventListener('click', function() { 
+    
     // get random number between 0 and 3 - serve per pescare un coore a caso dall'array sopra. 
     const randomNumber = getRandomNumber();
+    
     //document.body.style.backgroundColor = colors[randomNumber];
-    color.textContent = colors[randomNumber]; // cambia il nome del colore in pagina 
-    console.log(randomNumber);
-    box_colored.style.backgroundColor = colors[randomNumber];
+    if(color.textContent == colors[randomNumber]) {
+        console.log("IF")
+    const randomNumber = getRandomNumber();
+    } else {
+        console.log("ELSE")
+        color.textContent = colors[randomNumber]; // cambia il nome del colore in pagina 
+        box_colored.style.backgroundColor = colors[randomNumber];
+    }
+   
 })
 
 
 
 function getRandomNumber() {
-    return Math.floor(Math.random() * colors.length);
+    var prova = Math.floor(Math.random() * colors.length);
+    return prova;
 }
 
 
-$(document).ready(function() {
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll > 250) {
-            $(".header-fixed").addClass("resized");
-        } else {
-            $(".header-fixed").removeClass("resized");
-        }
-    });
-});
+// $(document).ready(function() {
+//     $(window).scroll(function () {
+//         var scroll = $(window).scrollTop();
+//         if (scroll > 250) {
+//             $(".header-fixed").addClass("resized");
+//         } else {
+//             $(".header-fixed").removeClass("resized");
+//         }
+//     });
+// });

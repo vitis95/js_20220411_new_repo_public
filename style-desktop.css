@@ -1,8 +1,13 @@
-/*
-
+/* -------------------------------------------------------
 Palette - https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
+#2B2D42
+#8D99AE
+#EDF2F4
+#EF233C
+#D90429
+------------------------------------------------------- */
 
-*/
+
 * {
     font-family: Verdana;
     padding: 0;
@@ -17,12 +22,22 @@ Palette - https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 body { margin: 0 auto;  background-color: #EDF2F4; font-family: sans-serif; }
 h1, h2, h3, h4, p { color: #1e1e1e; }
 
+  
+    
 .pre-header { width: 100%; height: 15px; background: #EDF2F4; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19); }
 .header-fixed { position: fixed; top: 0; left: 0;  width: 100%; height: auto; background: #fff; z-index: 9999; transition: All 0.3s ease; -webkit-transition: All 0.3s ease; -moz-transition: All 0.3s ease; -o-transition: All 0.3s ease; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);}
 .header-fixed h1 a { display: block; text-align: center; }
 .header-relative { height: 80px; }
 .header-fixed.resized { top: -75px; }
 .header-fixed.resized img { padding-top: 60px; transform: scale(0.8); -webkit-transform: scale(0.8); -moz-transform: scale(0.8); -o-transform: scale(0.8); -ms-transform: scale(0.8); }
+
+
+.logo-name { 
+    color: #2B2D42;
+    text-shadow: 1px 1px 2px #D90429;
+    font-size: 28px;
+
+ }
 
 /* .nav-center {  border-radius: 2px; border-color: #000; border-style: solid;   }
 .nav-links { list-style-type: none; margin: 0 auto; padding: 20px; max-width: 600px; border-radius: 2px; border-color: #000; border-style: solid; background-color: aqua; }
@@ -37,14 +52,16 @@ h1, h2, h3, h4, p { color: #1e1e1e; }
 .nav-links li a:hover { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #D90429; } 
 .nav-links li a.nav-active { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #EF233C; }
 
-main { width: 400px; margin: 0 auto; margin-bottom: 40px; }
-.container .card h2 {  text-align: center;}
-.container .card button { width: 90px; display: block; margin: 0 auto; }
-.card { margin: 5px 0; margin-bottom: 20px; padding: 5px; border-bottom: 1px solid #d8d8d8; padding: 50px; }
-.hr-main { border-top: 2px solid #2B2D42; }
+.container-sx { float: right; width: 48%; margin: 10px; }
+.container-dx { float: left; width: 48%; margin: 10px; }
+/* main { border: 2px solid red; width: 400px; margin: 0 auto; margin-bottom: 40px; } */
+.card { margin-bottom: 20px; padding: 15px; border: 1px solid #d8d8d8; }
+.card h2 { text-align: center; }
+.btn { width: 20%;  display: block;  margin: 15px auto; padding: 15px; border: 2px solid #2B2D42; border-radius: 100px; box-sizing: border-box; text-decoration:none; text-transform: uppercase; font-weight:600; color:#2B2D42; text-align:center; }
+.btn:hover{  color:#000000; background-color: #EDF2F4; }
 
-#box-colored { width: 200px; border-radius: 2px; border-color: #000; border-style: solid; text-align: center; margin: 0 auto; margin-top: 40px; background-color: #8D99AE; }
-#box-colored h3 { color: #edf2f4; }
+#box-colored { width: 60%; margin: 15px auto; border-radius: 2px; border-color: #000; border-style: solid; background-color: #8D99AE;  }
+#box-colored h3 { color: #edf2f4; text-align: center; width: 50%; display: block; margin: 15px auto; }
 
 .footer { width: 100%; height: 600px; background: #D90429; }
 .footer-section { border-bottom: 1px solid #d8d8d8; padding: 50px; display: flex; justify-content: space-between; }
