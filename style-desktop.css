@@ -55,9 +55,10 @@ h1, h2, h3, h4, p { color: #1e1e1e; }
 .container-sx { float: right; width: 48%; margin: 10px; }
 .container-dx { float: left; width: 48%; margin: 10px; }
 /* main { border: 2px solid red; width: 400px; margin: 0 auto; margin-bottom: 40px; } */
-.card { margin-bottom: 20px; padding: 15px; border: 1px solid #d8d8d8; }
+.card { margin-bottom: 20px; padding: 15px; border: 1px solid #d8d8d8; height: 220px; }
 .card h2 { text-align: center; }
-.btn { width: 20%;  display: block;  margin: 15px auto; padding: 15px; border: 2px solid #2B2D42; border-radius: 100px; box-sizing: border-box; text-decoration:none; text-transform: uppercase; font-weight:600; color:#2B2D42; text-align:center; }
+.card h2 span { color: #EF233C; }
+.btn { display: block;  margin: 15px auto; padding: 15px 25px 15px 25px; border: 2px solid #2B2D42; border-radius: 100px; box-sizing: border-box; text-decoration:none; text-transform: uppercase; font-weight:600; color:#2B2D42; text-align:center; font-size: 18px; }
 .btn:hover{  color:#000000; background-color: #EDF2F4; }
 
 #box-colored { width: 60%; margin: 15px auto; border-radius: 2px; border-color: #000; border-style: solid; background-color: #8D99AE;  }
