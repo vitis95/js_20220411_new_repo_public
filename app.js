@@ -36,6 +36,23 @@ function getRandomNumber() {
 }
 
 
+
+
+// $('document').ready(function(){
+    
+// $(window).scroll(function(){
+// $("#header-scroll").toggleClass("header-fixed-scroll");
+// });
+// });
+
+// window.addEventListener('scroll', function() {
+//     console.log("entro 3");
+    
+
+//     // document.getElementById("header-scroll").add("header-fixed-scroll");
+
+// });
+
 // $(document).ready(function() {
 //     $(window).scroll(function () {
 //         var scroll = $(window).scrollTop();
