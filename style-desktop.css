@@ -7,25 +7,18 @@ Palette - https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 #D90429
 ------------------------------------------------------- */
 
-
-* {
-    font-family: Verdana;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-    position: relative;
-    display: block;
-}
-
-
+/*--------------------------------------------------------------
+General
+--------------------------------------------------------------*/
+* { font-family: Verdana; padding: 0; margin: 0; max-width: 100%; overflow-x: hidden; position: relative; display: block; }
 body { margin: 0 auto;  background-color: #EDF2F4; font-family: sans-serif; }
 h1, h2, h3, h4, p { color: #1e1e1e; }
-
-  
-    
+/*--------------------------------------------------------------
+Layout
+--------------------------------------------------------------*/    
 .pre-header { width: 100%; height: 15px; background: #EDF2F4; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19); }
 .logo-name { position: absolute;  bottom: 0; width: 20%; padding: 10px; color: #2B2D42; text-shadow: 0.8px 0.8px 1px #000; font-weight: 500; font-size: 28px; }
+.nav-icon-bar { position: absolute;  bottom: 0; right: 16%; padding: 10px; }
 .logo-img { width: 8%; position: absolute;  bottom: 0; right: 2%; }
 .header-fixed { position: fixed; top: 0; left: 0;  width: 100%; height: auto; z-index: 9999; transition: All 0.3s ease; -webkit-transition: All 0.3s ease; -moz-transition: All 0.3s ease; -o-transition: All 0.3s ease; }
 .header-fixed:hover { background: #fff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19); }
@@ -33,44 +26,63 @@ h1, h2, h3, h4, p { color: #1e1e1e; }
 .header-relative { height: 80px; }
 .header-fixed.resized { top: -75px; }
 .header-fixed.resized img { padding-top: 60px; transform: scale(0.8); -webkit-transform: scale(0.8); -moz-transform: scale(0.8); -o-transform: scale(0.8); -ms-transform: scale(0.8); }
-
 .header-fixed-scroll { background: #fff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19); }
-
-
-/* .nav-center {  border-radius: 2px; border-color: #000; border-style: solid;   }
-.nav-links { list-style-type: none; margin: 0 auto; padding: 20px; max-width: 600px; border-radius: 2px; border-color: #000; border-style: solid; background-color: aqua; }
-.nav-links li { text-align: center; float:  left; margin: 2px; display: block; min-width: 80px;}
-.nav-links li a{ display: block; color: #000; padding: 8px 16px; text-decoration: none;}
-.nav-links li a:hover { background-color: #8D99AE; color: white; }
-.nav-active { background-color: #EDF2F4; color: white; }  */
-
 .nav-links { margin: 0 auto; width: 60%; padding-top: 6px; padding-bottom: 16px; text-align: center; }
 .nav-links li { display: inline-block; padding: 5px 20px; text-transform: uppercase; margin: 0 10px; }
 .nav-links li a { text-decoration: none; color: #2B2D42; font-weight: 550; font-size: 16px; }
 .nav-links li a:hover { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #D90429; } 
 .nav-links li a.nav-active { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #EF233C; }
-
-
+.nav-icon-bar { display: none; }
+.nav-icon-bar span { display: block; background-color: #2B2D42; height: 2px; width: 23px; margin-bottom: 5px; }
 .container-sx { float: right; width: 48%; margin: 10px; }
 .container-dx { float: left; width: 48%; margin: 10px; }
-/* main { border: 2px solid red; width: 400px; margin: 0 auto; margin-bottom: 40px; } */
 .card { margin-bottom: 20px; padding: 15px; border: 1px solid #d8d8d8; height: 220px; }
 .card h2 { text-align: center; }
 .card h2 span { color: #EF233C; }
 .btn { display: block;  margin: 15px auto; padding: 15px 25px 15px 25px; border: 2px solid #2B2D42; border-radius: 100px; box-sizing: border-box; text-decoration:none; text-transform: uppercase; font-weight:600; color:#2B2D42; text-align:center; font-size: 18px; }
 .btn:hover{  color:#000000; background-color: #EDF2F4; }
-
 #box-colored { width: 60%; margin: 15px auto; border-radius: 2px; border-color: #000; border-style: solid; background-color: #8D99AE;  }
 #box-colored h3 { color: #edf2f4; text-align: center; width: 50%; display: block; margin: 15px auto; }
-
 .footer { width: 100%; height: 600px; background: #D90429; }
 .footer-section { border-bottom: 1px solid #d8d8d8; padding: 50px; display: flex; justify-content: space-between; }
-
 .footer-newsletter {  width: 25%; padding: 25px; display: flex; flex-direction: column; }
 .footer-newsletter-email { width: 100%; display: flex; flex-direction: row; padding: 25px 0; }
 .input-email { width: 160px; height: 50px; background-color: #fff; opacity: 1; }
 .footer-social {  padding: 25px; width: 25%; }
 .footer-contact-us-wrapper { max-width: 25%; margin: 0 16px; background-color: #EDF2F4; border-radius: 4px; padding: 25px; }
+/*--------------------------------------------------------------
+Tablet
+--------------------------------------------------------------*/
+@media (max-width: 998px) { 
+    
+}
+
+/*--------------------------------------------------------------
+Smartphone
+--------------------------------------------------------------*/
+@media (max-width: 767px) { 
+    
+    /* Header & Menu */
+    .pre-header { display: none; }
+    .header-fixed { } 
+    .logo-name { display: none; }
+    .logo-img { width: 24%; position: relative;  bottom: 0px; left: 2%; float: left; }
+    .nav-links { width: 100%; height: 0; overflow: hidden; transition: All 0.3s ease; -webkit-transition: All 0.3s ease; -moz-transition: All 0.3s ease; -o-transition: All 0.3s ease; }
+    .nav-links li { display: block; }
+    .nav-links li a { display: block; padding: 10px 15px; border-bottom: 1px solid #666; }
+
+    .nav-icon-bar { position: relative;  bottom: 0px; right: 2%; float: right; display: block; }
+
+    .show-nav-mobile { height: 300px; overflow: auto; }
+    .nav-links { width: auto; padding-top: 6px; padding-bottom: 16px; text-align: center; }
+
+    /* Content Layout */
+    .content,
+    .sidebar { width: 100%; }
+}
+
+
+
 
 
 
