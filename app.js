@@ -36,7 +36,6 @@ $('document').ready(function(){
 $(window).scroll(function(){
     var scroll = $(window).scrollTop(); 
     if (scroll >= 1) {
-        console.log("CIAO");
         $("#header-scroll").addClass("header-fixed-scroll");
     } else {
         $("#header-scroll").removeClass("header-fixed-scroll");
