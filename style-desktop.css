@@ -15,7 +15,7 @@ body { margin: 0 auto;  background-color: #EDF2F4; font-family: sans-serif; }
 h1, h2, h3, h4, p { color: #1e1e1e; }
 /*--------------------------------------------------------------
 Layout
---------------------------------------------------------------*/    
+--------------------------------------------------------------*/
 .pre-header { width: 100%; height: 15px; background: #EDF2F4; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19); }
 .logo-name { position: absolute;  bottom: 0; width: 20%; padding: 10px; color: #2B2D42; text-shadow: 0.8px 0.8px 1px #000; font-weight: 500; font-size: 28px; }
 .nav-icon-bar { position: absolute;  bottom: 0; right: 16%; padding: 10px; }
@@ -30,7 +30,7 @@ Layout
 .nav-links { margin: 0 auto; width: 60%; padding-top: 6px; padding-bottom: 16px; text-align: center; }
 .nav-links li { display: inline-block; padding: 5px 20px; text-transform: uppercase; margin: 0 10px; }
 .nav-links li a { text-decoration: none; color: #2B2D42; font-weight: 550; font-size: 16px; }
-.nav-links li a:hover { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #D90429; } 
+.nav-links li a:hover { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #D90429; }
 .nav-links li a.nav-active { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #EF233C; }
 .nav-icon-bar { display: none; }
 .nav-icon-bar span { display: block; background-color: #2B2D42; height: 2px; width: 23px; margin-bottom: 5px; }
@@ -42,7 +42,9 @@ Layout
 .btn { display: block;  margin: 15px auto; padding: 15px 25px 15px 25px; border: 2px solid #2B2D42; border-radius: 100px; box-sizing: border-box; text-decoration:none; text-transform: uppercase; font-weight:600; color:#2B2D42; text-align:center; font-size: 18px; }
 .btn:hover{  color:#000000; background-color: #EDF2F4; }
 #box-colored { width: 60%; margin: 15px auto; border-radius: 2px; border-color: #000; border-style: solid; background-color: #8D99AE;  }
+#box-colored-2 { width: 60%; margin: 15px auto; border-radius: 2px; border-color: #000; border-style: solid; background-color: #8D99AE;  }
 #box-colored h3 { color: #edf2f4; text-align: center; width: 50%; display: block; margin: 15px auto; }
+#box-colored-2 h3 { color: #edf2f4; text-align: center; width: 50%; display: block; margin: 15px auto; }
 .footer { width: 100%; height: 600px; background: #D90429; }
 .footer-section { border-bottom: 1px solid #d8d8d8; padding: 50px; display: flex; justify-content: space-between; }
 .footer-newsletter {  width: 25%; padding: 25px; display: flex; flex-direction: column; }
@@ -53,18 +55,18 @@ Layout
 /*--------------------------------------------------------------
 Tablet
 --------------------------------------------------------------*/
-@media (max-width: 998px) { 
-    
+@media (max-width: 998px) {
+
 }
 
 /*--------------------------------------------------------------
 Smartphone
 --------------------------------------------------------------*/
-@media (max-width: 767px) { 
-    
+@media (max-width: 767px) {
+
     /* Header & Menu */
     .pre-header { display: none; }
-    .header-fixed { } 
+    .header-fixed { }
     .logo-name { display: none; }
     .logo-img { width: 24%; position: relative;  bottom: 0px; left: 2%; float: left; }
     .nav-links { width: 100%; height: 0; overflow: hidden; transition: All 0.3s ease; -webkit-transition: All 0.3s ease; -moz-transition: All 0.3s ease; -o-transition: All 0.3s ease; }
