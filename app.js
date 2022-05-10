@@ -53,3 +53,24 @@ $(document).ready(function(){
     });
 });
 // End // Hamburger Menu
+
+// Start // Sub Nav Menu
+$(document).ready(function(){
+    $(".sub-page-1").click(function(e){
+        $(".sub-page-1").toggleClass('sub-nav-links-li-a-nav-active');
+        $(".sub-page-2").removeClass('sub-nav-links-li-a-nav-active');
+        $(".sub-nav-center-1").toggleClass('sub-nav-center-on-1');
+        $(".sub-nav-center-2").removeClass('sub-nav-center-on-2');
+        e.preventDefault();
+    });
+});
+$(document).ready(function(){
+    $(".sub-page-2").click(function(e){
+        $(".sub-page-2").toggleClass('sub-nav-links-li-a-nav-active');
+        $(".sub-page-1").removeClass('sub-nav-links-li-a-nav-active');
+        $(".sub-nav-center-1").removeClass('sub-nav-center-on-1');
+        $(".sub-nav-center-2").toggleClass('sub-nav-center-on-2');
+        e.preventDefault();
+    });
+});
+// End // Sub Nav Menu
