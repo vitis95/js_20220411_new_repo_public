@@ -30,7 +30,7 @@ Layout
 .header-fixed-scroll { background: #fff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19); }
 
 .nav-links { margin: 0 auto; padding-top: 6px; padding-bottom: 16px; text-align: center; }
-.nav-links li { display: inline-block; padding: 5px 20px; text-transform: uppercase; margin: 0 10px; overflow: unset; }
+.nav-links li { display: inline-block; padding: 5px 5px; text-transform: uppercase; margin: 0 10px; overflow: unset; }
 .nav-links li a { text-decoration: none; color: #2B2D42; font-weight: 550; font-size: 16px; }
 .nav-links li a:hover { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #D90429; }
 .nav-links li a.nav-active { margin-bottom: 5px;  border-bottom: 3px solid #2B2D42;  padding-bottom: 2px; color: #EF233C; }
