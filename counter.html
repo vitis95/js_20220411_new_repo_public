@@ -3,6 +3,7 @@
 
 <head>
     <link href="style-desktop.css" rel="stylesheet" type="text/css">
+    <link href="counter.css" rel="stylesheet" type="text/css">
     <link href="style-mobile.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,8 +24,8 @@
                 <a href="" class="nav-icon-bar"><span></span><span></span><span></span></a>
                 <div class="nav-center" id="nav-div">
                     <ul class="nav-links">
-                        <li><a class="nav-active" href="index.html">Simple</a></li>
-                        <li><a href="counter.html">Counter</a></li>
+                        <li><a href="index.html">Simple</a></li>
+                        <li><a class="nav-active" href="counter.html">Counter</a></li>
                         <li><a href="home.html">Home</a></li>
                         <li><a class="sub-nav-page sub-page-1" href="#">Sub Page 1</a></li>
                         <li><a class="sub-nav-page sub-page-2" href="#">Sub Page 2</a></li>
@@ -56,7 +57,7 @@
                     <li><a href="#">Sub Page 22</a></li>
                 </ul>
             </div>
-            
+
         </div>
 
         <div class="header-relative"></div>
@@ -68,56 +69,24 @@
 
     <!-- Main START -->
     <main>
-        
-
-            <div class="container">
-                <div class="card">
-                    <h1>Primo Esercizio JS</h1><br>
-                    <p>app.js - cambio colore e testo semplicemente prendendo i valori statici dell'array. </p>
-                    <p>const colors = ["#2B2D42", "#8D99AE", "#EDF2F4", "#EF233C", "#D90429"];</p>
+        <div class="container">
+            <div class="card">
+                <h1>Counter</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, id facere quisquam minus obcaecati
+                    assumenda deserunt cum ullam error perferendis totam et nostrum ut quae eius laboriosam quis
+                    veritatis hic?</p>
+            </div>
+            <div class="card">
+                <span class="span-counter" id="value">0</span>
+                <div class="button-container">
+                    <button class="btn decrease">decrease</button>
+                    <button class="btn reset">reset</button>
+                    <button class="btn increase">increase</button>
                 </div>
-                <div class="card">
-                    <h2>Background Color Simple <span class="color">#f1f5f8</span></h2>
-                    <div id="box-colored">
-                        <h3 id="box-colored-text">Box Colored</h3>
-                    </div>
-                    <button class="btn btn-hero" id="btn">Click Me</button>
-                </div>
-                </div>
-                <div class="container">
-                    <div class="card">
-                        <h1>Secondo Esercizio JS</h1><br>
-                        <p>hex.js - crea un array con codici esadecimali </p>
-                    </div>
-                    <div class="card">
-                        <h2>Background Color Hex <span class="color-2">#f1f5f8</span></h2>
-                        <div id="box-colored-2">
-                            <h3>Box Colored</h3>
-                        </div>
-                        <button class="btn btn-hero" id="btn2">Click Me</button>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="card">
-                        <h1>Terzo Esercizio JS</h1><br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sequi pariatur magni. Vero
-                            voluptatum odit culpa fugiat eaque rerum veritatis adipisci aliquid quibusdam, quisquam
-                            perspiciatis, aspernatur, quaerat facere magnam excepturi.</p>
-                    </div>
-                    <div class="card">
-                        <h2>Counter min: 30:25<h2>
-                            <main>
-                                <div class="container">
-                                    <h1>Counter</h1>
-                                </div>
-                            </main>
-                       
+            </div>
 
 
-                        
-                    </div>
-                </div>
+        </div>
     </main>
     <!-- Main END -->
 
@@ -165,8 +134,8 @@
 
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="app.js"></script>
     <script src="header.js"></script>
+    <script src="counter.js"></script>
 </body>
 
 </html>

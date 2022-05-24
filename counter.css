@@ -1,0 +1,19 @@
+.card span {
+
+    font-weight: 400;
+    font-size: 160px;
+    /* width: 200px; */
+    /* display: block;  margin: 0 auto; */
+    
+}
+
+.span-counter {
+    width: 500px; margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-container {
+    display: flex; flex-direction: row; width: 500px; margin: 0 auto;
+}
